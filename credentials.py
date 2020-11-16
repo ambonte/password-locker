@@ -25,7 +25,7 @@ def display_account_credentials():
 def find_account_credentials(accountname):
     return Account.find_by_accountName(accountname)
 def main():
-    print("Welcome to Password Locker. Enter your Name please!")
+    print("welcome to Password Locker. Enter your Name please!")
     name = input()
     print(f"Hello {name}!To start off please choose one of the options below:")
     print('\n')
