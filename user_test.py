@@ -91,7 +91,7 @@ class TestAccount(unittest.TestCase):
         self.assertEqual(len(Account.account_list),1)
     def test_find_account_by_name(self):
         self.new_account.save_account()
-        test_account = Account("Medium", "Emma", "kinder")
+        test_account = Account("Medium", "Emma", "kindern")
         test_account.save_account()
         found_account = Account.find_by_accountName("Medium")
         self.assertEqual(found_account.account_name,"Medium")
