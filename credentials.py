@@ -91,7 +91,7 @@ def main():
                     else:
                         print(f"{delete_acc} does not exist")
             else:
-                print("Incorrect username or password.Please try again.")
+                print("You entered an incorrect username or password.Please try again.")
                 print('\n')
         else:
             print("Incorrect Option.Please choose from the ones listed")
