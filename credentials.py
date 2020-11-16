@@ -35,7 +35,7 @@ def main():
         if user_choice == "na":
             print("Create an account")
             print("-"*7)
-            print("Enter First Name:")
+            print("Enter your First Name:")
             firstname = input()
             print("Enter Last Name:")
             lastname = input()
