@@ -94,7 +94,7 @@ def main():
                 print("You entered an incorrect username or password.Please try again.")
                 print('\n')
         else:
-            print("Incorrect Option.Please choose from the ones listed")
+            print("You entered an incorrect Option.Please choose from the ones listed")
             print('\n')
 if __name__ == '__main__':
     main()
