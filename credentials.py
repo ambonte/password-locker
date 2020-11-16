@@ -41,7 +41,7 @@ def main():
             lastname = input()
             print("Enter your Username:")
             username = input()
-            print("Enter password")
+            print("Enter your choosen password")
             password = input()
             save_user(create_user(firstname,lastname,username,password))
             print('\n')
