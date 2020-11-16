@@ -51,10 +51,10 @@ class TestUser(unittest.TestCase):
         test to check if we can find a user by their username and display infformation
         '''
         self.new_user.save_user()
-        test_user = User("Bonte", "Emma", "embonte", "wowest")
+        test_user = User("Bonte", "Emma", "embonte", "wallah")
         test_user.save_user()
         found_user = User.find_by_username("embonte")
-        self.assertEqual(found_user.user_name,"wowest")
+        self.assertEqual(found_user.user_name,"wallah")
     def test_find_user_by_password(self):
         '''
         test to check if we can find a user by their password
