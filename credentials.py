@@ -69,7 +69,7 @@ def main():
                     print(f"Account Name:{accountname}, Account Username:{accountusername}, Account Password:{accountpassword}")
                 elif account_choice == "da":
                     if display_account_credentials():
-                        print("Here is a list of all your accounts: ")
+                        print("Here is a list of your accounts: ")
                         print('\n')
                         for account in display_account_credentials():
                             print(f"Account Name:{account.account_name}")
