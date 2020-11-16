@@ -30,7 +30,7 @@ def main():
     print(f"Hello {name}!To start off please choose one of the options below:")
     print('\n')
     while True:
-        print("this short code helps to signup: na - SignUp")
+        print("this short code helps to sign-up: bon - SignUp")
         user_choice = input().lower()
         if user_choice == "na":
             print("Create an account")
