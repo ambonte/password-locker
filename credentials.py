@@ -56,7 +56,7 @@ def main():
                 print('\n')
                 print("Welcome!To continue please choose any of the options below:")
                 print("-"*60)
-                print("nw - Add New Account, da - Display Accounts, vw -View Account Details, dlt - Delete Account Detaiils")
+                print("nw - Add New Account, bon - Display Accounts, vw -View Account Details, dlt - Delete Account Detaiils")
                 account_choice = input().lower()
                 if account_choice == "nw":
                     print("Enter Account Name:")
